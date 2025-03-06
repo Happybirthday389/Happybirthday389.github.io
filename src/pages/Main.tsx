@@ -191,9 +191,9 @@ const Main = () => {
           </ReasonItem>
         ))}
       </ReasonContainer>
-      <Title>🎉오빠의 24번째 생일을 진심으로 축하해 🎉</Title>
-      <Developer>Developed by. 오빠 옆에서 든든히 지키는 댕댕이 여자친구가 🐶 </Developer>
-      <DevelopText>github: @osohyun0224</DevelopText>
+      <Title>🎉가영이 30번째 생일을 진심으로 축하해 🎉</Title>
+      <Developer>Developed by. 가영 옆에서 든든히 지키는 상원오빠가 🐶 </Developer>
+      <DevelopText>github: @sosimina</DevelopText>
     </BannerContainer>
   );
 };
