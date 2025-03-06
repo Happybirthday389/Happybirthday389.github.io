@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 
-const ToDeuniContainer = styled.div`
+const ToGayoungContainer = styled.div`
   background-color: #dbf1c9;
   min-height: 100vh;
   display: flex;
@@ -94,7 +94,7 @@ const ToGayoungPage = () => {
   };
 
   return (
-    <ToDeuniContainer>
+    <ToGayoungContainer>
       <ImageWrapper>
         <StyledImage src="/images/E0.png" alt="설명" />
       </ImageWrapper>
@@ -113,7 +113,7 @@ const ToGayoungPage = () => {
       {userMessages.map((userMessage, index) => (
         <MessageContainer key={index}>{userMessage}</MessageContainer>
       ))}
-    </ToDeuniContainer>
+    </ToGayoungContainer>
   );
 };
 

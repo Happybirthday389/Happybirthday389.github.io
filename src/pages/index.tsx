@@ -61,7 +61,7 @@ const ButtonsContainer = styled.div`
 
 const IndexPage = () => {
   const [activeButton, setActiveButton] = useState("Main");
-  const buttons = ["Main", "To Deuni", "Photo", "Present", "Letter for Deuni"];
+  const buttons = ["Main", "To Gayoung", "Photo", "Present", "Letter for Gayoung"];
 
   const handleClick = (buttonName: string) => {
     setActiveButton(buttonName);
@@ -82,10 +82,10 @@ const IndexPage = () => {
         ))}
       </ButtonsContainer>
       {activeButton === "Main" && <MainComponent />} 
-      {activeButton === "To Gaypimg" && <ToGayoungPage />}
+      {activeButton === "To Gayoung" && <ToGayoungPage />}
       {activeButton === 'Photo' && <PhotoPage />} 
       {activeButton === 'Present' && <PresentPage />} 
-      {activeButton === 'Letter for Deuni' && <LetterPage />} 
+      {activeButton === 'Letter for Gayoung' && <LetterPage />} 
     </MainContainer>
   );
 };
