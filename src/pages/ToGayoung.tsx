@@ -96,7 +96,7 @@ const ToGayoungPage = () => {
   return (
     <ToGayoungContainer>
       <ImageWrapper>
-        <StyledImage src="/images/E0.png" alt="설명" />
+        <StyledImage src="/images/E0.jpg" alt="설명" />
       </ImageWrapper>
       <Title>가영이에게 생일 축하 인사를 남겨보세요!</Title>
       {showInput ? (
