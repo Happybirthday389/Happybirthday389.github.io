@@ -117,4 +117,4 @@ const ToDeuniPage = () => {
   );
 };
 
-export default ToDeuniPage;
+export default ToGayoungPage;
