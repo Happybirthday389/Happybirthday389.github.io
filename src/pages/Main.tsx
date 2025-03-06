@@ -142,28 +142,28 @@ const Main = () => {
   };
 
   const reasons = [
-    { img: "E1.png", text: "너가 좋은 첫 번째 이유, <br/> 잘 생겨서," },
+    { img: "E1.jpg", text: "너가 좋은 첫 번째 이유, <br/> 예뻐서," },
     {
-      img: "E2.png",
-      text: "너가 좋은 두 번째 이유, <br/> 너의 모든 행동이 너무 예뻐서,",
+      img: "E2.jpg",
+      text: "너가 좋은 두 번째 이유, <br/> 화끈해서,",
     },
     {
-      img: "E3.png",
+      img: "E3.jpg",
       text: "너가 좋은 세 번째 이유, <br/> 언제나 주어진 일에 최선을 다해서,",
     },
     {
-      img: "E4.png",
+      img: "E4.jpg",
       text: "너가 좋은 네 번째 이유, <br/> 너의 웃는 얼굴이 항상 설레서,",
     },
     {
-      img: "E5.png",
+      img: "E5.jpg",
       text: "너가 좋은 다섯 번째 이유, <br/> 나에겐 표현이 항상 솔직해서",
     },
   ];
 
   return (
     <BannerContainer>
-      <Title>😼 All About Deuni 😼</Title>
+      <Title>😼 All About Gayoung 😼</Title>
       <ImageContainer>
         <SlideButton onClick={prevSlide} style={{ left: "10px" }}>
           &#10094;
