@@ -78,7 +78,7 @@ const MessageContainer = styled.div`
   flex-direction: column;
 `;
 
-const ToDeuniPage = () => {
+const ToGayoungPage = () => {
   const [showInput, setShowInput] = useState(false);
   const [message, setMessage] = useState("");
   const [userMessages, setUserMessages] = useState<string[]>([]);
